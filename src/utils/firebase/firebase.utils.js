@@ -3,7 +3,12 @@ import {getAuth, signInWithRedirect, signInWithPopup, GoogleAuthProvider} from '
 import {getFirestore, doc, getDoc, setDoc} from 'firebase/firestore';
 
 const firebaseConfig = {
-    //There must be credentials
+    apiKey: "AIzaSyAukimPNrKv9kIh7G8LkFvMYMyJh9wj7Zo",
+    authDomain: "crwn-clothing-db-b6391.firebaseapp.com",
+    projectId: "crwn-clothing-db-b6391",
+    storageBucket: "crwn-clothing-db-b6391.appspot.com",
+    messagingSenderId: "531443986852",
+    appId: "1:531443986852:web:46dc05da35dfac44451131"
 };
 
 
